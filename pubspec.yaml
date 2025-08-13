@@ -1,0 +1,22 @@
+name: dio_toolkit
+description: Pragmatic, type-safe HTTP client on top of Dio with auth, refresh, retry, cache, and typed results.
+version: 0.1.0
+homepage: https://github.com/ZoomerDeveloper/dio_toolkit
+repository: https://github.com/ZoomerDeveloper/dio_toolkit
+issue_tracker: https://github.com/ZoomerDeveloper/dio_toolkit/issues
+documentation: https://github.com/ZoomerDeveloper/dio_toolkit#readme
+topics:
+  - dio
+  - http
+  - networking
+  - interceptors
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  dio: ^5.6.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
